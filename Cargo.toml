@@ -8,7 +8,7 @@ homepage = "https://github.com/twisted1919/zerobounce-rust"
 repository = "https://github.com/twisted1919/zerobounce-rust"
 documentation = "https://github.com/twisted1919/zerobounce-rust#usage"
 license-file = "LICENSE"
-categories = ["zerbounce", "email-validation", "validation"]
+keywords = ["zerbounce", "email-validation"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
