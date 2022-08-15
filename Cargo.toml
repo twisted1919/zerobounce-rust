@@ -2,6 +2,13 @@
 name = "zerobounce"
 version = "1.0.0"
 edition = "2021"
+description = "ZeroBounce Email Verification Library for Rust"
+readme = "README.md"
+homepage = "https://github.com/twisted1919/zerobounce-rust"
+repository = "https://github.com/twisted1919/zerobounce-rust"
+documentation = "https://github.com/twisted1919/zerobounce-rust#usage"
+license-file = "LICENSE"
+categories = ["zerbounce", "email-validation", "validation"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
