@@ -1,11 +1,19 @@
 # ZeroBounce Email Verification Library for Rust
 
+## Disclaimer
+
+The `zerobounce` crate is an unofficial Rust client for the ZeroBounce email verification API.
+For ZeroBounce’s official Rust SDK, use [`zero-bounce`](https://crates.io/crates/zero-bounce).
+
 ## Getting Started
 You will need a [zerobounce account](https://www.zerobounce.net) to get started.  
 Once you get an account, you will need to [get an api key](https://www.zerobounce.net/members/apikey/)
 to use it in the API calls.
 
-## Installation  
+## Installation
+
+This crate uses the Rust 2021 edition.
+
 Add below to your `[dependencies]` section of `Cargo.toml`  
 `zerobounce = { version = "1.0" }`
 
@@ -95,5 +103,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 ```
 
-## Testing  
-Set your api key in the `ZEROBOUNCE_API_KEY` environment variable, then run `cargo test`.
+## Testing
+
+Run `cargo test` to test the client against a local HTTP server. If you set `ZEROBOUNCE_API_KEY`,
+the same command also checks credits and email validation against the live API.

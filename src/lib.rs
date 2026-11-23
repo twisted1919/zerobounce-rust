@@ -1,3 +1,7 @@
+//! An unofficial Rust client for the ZeroBounce email verification API.
+//!
+//! For ZeroBounce’s official Rust SDK, use [`zero-bounce`](https://crates.io/crates/zero-bounce).
+
 pub mod credits;
 pub mod validate;
 
